@@ -1,0 +1,12 @@
+[package]
+authors = ["diego <Diego Oliveira <diego@diegooliveira.com>>"]
+name = "trabalho"
+version = "0.1.0"
+
+[dependencies]
+clap = "*"
+log = "*"
+simplelog = "*"
+
+[dependencies.genetics]
+path = "../genetics"

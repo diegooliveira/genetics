@@ -1,0 +1,19 @@
+[package]
+
+name = "cvrp"
+version = "0.0.1"
+authors = [ "Your name <you@example.com>" ]
+
+[[bin]]
+
+name = "cvrp"
+
+[dependencies]
+log = "*"
+simplelog = "*"
+
+[dependencies.genetics]
+path = "../genetics"
+
+[profile.release]
+debug = true

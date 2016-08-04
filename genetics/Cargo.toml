@@ -1,0 +1,9 @@
+[package]
+name = "genetics"
+version = "0.1.0"
+authors = ["diego <Diego Oliveira <diego@diegooliveira.com>>"]
+
+[dependencies]
+rand = "*"
+log = "*"
+crossbeam = "*"
